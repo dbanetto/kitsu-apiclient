@@ -1,0 +1,56 @@
+# InlineResponse20063DataAttributes
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**about** | Option<**String**> | Max length of 500 characters | [optional]
+**ao_pro** | Option<**String**> | Logged in user only. Aozora user imports that had Aozora Pro - treated as Kitsu Pro | [optional]
+**avatar** | Option<[**crate::models::InlineResponse20063DataAttributesAvatar**](inline_response_200_63_data_attributes_avatar.md)> |  | [optional]
+**birthday** | Option<**String**> |  | [optional]
+**comments_count** | Option<**f32**> |  | [optional]
+**confirmed** | Option<**bool**> | Logged in user only. Email confirmed | [optional]
+**country** | Option<**String**> | Logged in user only. | [optional]
+**cover_image** | Option<[**crate::models::InlineResponse20063DataAttributesCoverImage**](inline_response_200_63_data_attributes_coverImage.md)> |  | [optional]
+**created_at** | Option<**String**> | ISO 8601 date and time | [optional]
+**email** | Option<**String**> | Logged in user only | [optional]
+**facebook_id** | Option<**String**> | Logged in user only | [optional]
+**favorites_count** | Option<**f32**> |  | [optional]
+**feed_completed** | Option<**bool**> | Completed feeds onboarding | [optional]
+**followers_count** | Option<**f32**> |  | [optional]
+**following_count** | Option<**f32**> |  | [optional]
+**gender** | Option<**String**> |  | [optional]
+**has_password** | Option<**bool**> | Logged in user only | [optional]
+**language** | Option<**String**> | Logged in user only | [optional]
+**life_spent_on_anime** | Option<**f32**> | Deprecated, use the `stats` relationship | [optional]
+**likes_given_count** | Option<**f32**> |  | [optional]
+**likes_received_count** | Option<**f32**> |  | [optional]
+**location** | Option<**String**> |  | [optional]
+**media_reactions_count** | Option<**f32**> |  | [optional]
+**name** | Option<**String**> |  | [optional]
+**password** | Option<**String**> | Logged in user only. Used to set new password, always displays null | [optional]
+**past_names** | Option<[**Vec<crate::models::AnyType>**](AnyType.md)> |  | [optional]
+**posts_count** | Option<**f32**> |  | [optional]
+**previous_email** | Option<**String**> | Logged in user only | [optional]
+**pro_expires_at** | Option<**String**> |  | [optional]
+**pro_tier** | Option<**String**> |  | [optional]
+**profile_completed** | Option<**bool**> | Completed profile onboarding | [optional]
+**rating_system** | Option<**String**> | Logged in user only | [optional]
+**ratings_count** | Option<**f32**> |  | [optional]
+**reviews_count** | Option<**f32**> |  | [optional]
+**sfw_filter** | Option<**bool**> | Logged in user only. Toggle visibility of NSFW media and posts | [optional]
+**share_to_global** | Option<**bool**> | Logged in user only | [optional]
+**slug** | Option<**String**> |  | [optional]
+**status** | Option<**String**> |  | [optional]
+**subscribed_to_newsletter** | Option<**bool**> |  | [optional]
+**theme** | Option<**String**> | Logged in user only | [optional]
+**time_zone** | Option<**String**> | Logged in user only | [optional]
+**title** | Option<**String**> |  | [optional]
+**title_language_preference_canonical** | Option<**String**> | Logged in user only | [optional]
+**updated_at** | Option<**String**> | ISO 8601 of last modification | [optional]
+**waifu_or_husbando** | Option<**String**> |  | [optional]
+**website** | Option<**String**> | Deprecated, use the `profileLinks` relationship | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
