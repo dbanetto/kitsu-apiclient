@@ -5,8 +5,8 @@
   "main": "null.js",
   "scripts": {
     "convert": "api-spec-converter --check --syntax yaml --from api_blueprint --to openapi_3 ./kitsu.apib > kitsu.yml",
-    "generate": "openapi-generator generate --skip-validate-spec -i kitsu.yml -g rust -o ../src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate": "npm run generate:rust",
+    "generate:rust": "openapi-generator generate --skip-validate-spec -i kitsu.yml -g rust -o ../rust && echo '\npub type AnyType = serde_json::Value;' >> ../rust/src/models/mod.rs"
   },
   "author": "",
   "license": "ISC",
