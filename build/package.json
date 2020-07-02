@@ -1,17 +1,16 @@
 {
   "name": "converter",
+  "private": true,
   "version": "1.0.0",
-  "description": "Converts the Kitsu.io API Blueprint spec to OpenAPI v3",
+  "description": "Generate the Kitsu.io client from OpenAPI v3 spec",
   "main": "null.js",
   "scripts": {
-    "convert": "api-spec-converter --check --syntax yaml --from api_blueprint --to openapi_3 ./kitsu.apib > kitsu.yml",
     "generate": "npm run generate:rust",
-    "generate:rust": "openapi-generator generate --skip-validate-spec -i kitsu.yml -g rust -o ../rust && echo '\npub type AnyType = serde_json::Value;' >> ../rust/src/models/mod.rs"
+    "generate:rust": "openapi-generator generate -i kitsu-openapi3.yml -g rust -o ../rust"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@openapitools/openapi-generator-cli": "^1.0.13-4.3.1",
-    "api-spec-converter": "^2.11.0"
+    "@openapitools/openapi-generator-cli": "1.0.15-5.0.0-beta"
   }
 }
