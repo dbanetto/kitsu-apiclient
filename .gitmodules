@@ -1,3 +1,0 @@
-[submodule "build/kitsu-api-docs"]
-	path = build/kitsu-api-docs
-	url = https://github.com/hummingbird-me/api-docs
