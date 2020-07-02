@@ -4,26 +4,91 @@ All URIs are relative to *https://kitsu.io/api/edge*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**fetch_collection**](AnimeApi.md#fetch_collection) | **Get** /anime | Fetch Collection
-[**fetch_collection_0**](AnimeApi.md#fetch_collection_0) | **Get** /episodes | Fetch Collection
-[**fetch_collection_1**](AnimeApi.md#fetch_collection_1) | **Get** /trending/anime | Fetch Collection
-[**fetch_resource**](AnimeApi.md#fetch_resource) | **Get** /anime/{id} | Fetch Resource
-[**fetch_resource_0**](AnimeApi.md#fetch_resource_0) | **Get** /episodes/{id} | Fetch Resource
+[**episodes_fetch_collection**](AnimeApi.md#episodes_fetch_collection) | **get** /episodes | Episodes_Fetch Collection
+[**episodes_fetch_resource**](AnimeApi.md#episodes_fetch_resource) | **get** /episodes/{id} | Episodes_Fetch Resource
+[**fetch_collection**](AnimeApi.md#fetch_collection) | **get** /anime | Fetch Collection
+[**fetch_resource**](AnimeApi.md#fetch_resource) | **get** /anime/{id} | Fetch Resource
+[**trending_anime_fetch_collection**](AnimeApi.md#trending_anime_fetch_collection) | **get** /trending/anime | Trending Anime_Fetch Collection
 
+
+
+## episodes_fetch_collection
+
+> crate::models::EpisodesFetchCollectionresponse episodes_fetch_collection(id)
+Episodes_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `mediaId` | | **DEPRECATED** - use `anime_id`, `manga_id` or `drama_id` `mediaType` | `anime`, `anime,manga` | **DEPRECATED** - use `kind` `number` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::EpisodesFetchCollectionresponse**](Episodes_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## episodes_fetch_resource
+
+> crate::models::EpisodesFetchResourceresponse episodes_fetch_resource(id)
+Episodes_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `mediaId` | | **DEPRECATED** - use `anime_id`, `manga_id` or `drama_id` `mediaType` | `anime`, `anime,manga` | **DEPRECATED** - use `kind` `number` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::EpisodesFetchResourceresponse**](Episodes_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
 ## fetch_collection
 
-> crate::models::InlineResponse200 fetch_collection()
+> crate::models::FetchCollectionresponse fetch_collection(id)
 Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `season` | `winter`, `spring`, `summer`, `fall` `seasonYear` | `2017`, `2005,2006` `streamers` | `Crunchyroll` `ageRating` | `G`, `PG,R,R18`
 
 ### Parameters
 
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse200**](inline_response_200.md)
+[**crate::models::FetchCollectionresponse**](FetchCollectionresponse.md)
 
 ### Authorization
 
@@ -32,76 +97,28 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_0
-
-> crate::models::InlineResponse200 fetch_collection_0()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_1
-
-> crate::models::InlineResponse20061 fetch_collection_1()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse20061**](inline_response_200_61.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
 ## fetch_resource
 
-> crate::models::InlineResponse2004 fetch_resource(id)
+> crate::models::FetchResourceresponse fetch_resource(id)
 Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `season` | `winter`, `spring`, `summer`, `fall` `seasonYear` | `2017`, `2005,2006` `streamers` | `Crunchyroll` `ageRating` | `G`, `PG,R,R18`
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse2004**](inline_response_200_4.md)
+[**crate::models::FetchResourceresponse**](FetchResourceresponse.md)
 
 ### Authorization
 
@@ -110,26 +127,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_0
+## trending_anime_fetch_collection
 
-> crate::models::InlineResponse20013 fetch_resource_0(id)
-Fetch Resource
+> crate::models::TrendingAnimeFetchCollectionresponse trending_anime_fetch_collection()
+Trending Anime_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+This endpoint does not need any parameter.
 
 ### Return type
 
-[**crate::models::InlineResponse20013**](inline_response_200_13.md)
+[**crate::models::TrendingAnimeFetchCollectionresponse**](TrendingAnime_FetchCollectionresponse.md)
 
 ### Authorization
 
@@ -138,7 +154,7 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 

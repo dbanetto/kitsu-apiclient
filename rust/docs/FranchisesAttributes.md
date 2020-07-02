@@ -4,10 +4,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**canonical_title** | Option<**String**> |  | [optional]
 **created_at** | Option<**String**> | ISO 8601 date and time | [optional]
-**titles** | Option<[**crate::models::FranchisesAttributesTitles**](franchisesAttributes_titles.md)> |  | [optional]
 **updated_at** | Option<**String**> | ISO 8601 of last modification | [optional]
+**titles** | Option<[**crate::models::Titles4**](titles4.md)> |  | [optional]
+**canonical_title** | Option<**String**> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

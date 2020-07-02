@@ -4,108 +4,36 @@ All URIs are relative to *https://kitsu.io/api/edge*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**create_resource**](PostsApi.md#create_resource) | **Post** /post-follows | Create Resource
-[**create_resource_0**](PostsApi.md#create_resource_0) | **Post** /post-likes | Create Resource
-[**create_resource_1**](PostsApi.md#create_resource_1) | **Post** /posts | Create Resource
-[**delete_resource**](PostsApi.md#delete_resource) | **Delete** /post-follows/{id} | Delete Resource
-[**delete_resource_0**](PostsApi.md#delete_resource_0) | **Delete** /post-likes/{id} | Delete Resource
-[**delete_resource_1**](PostsApi.md#delete_resource_1) | **Delete** /posts/{id} | Delete Resource
-[**fetch_collection**](PostsApi.md#fetch_collection) | **Get** /post-follows | Fetch Collection
-[**fetch_collection_0**](PostsApi.md#fetch_collection_0) | **Get** /post-likes | Fetch Collection
-[**fetch_collection_1**](PostsApi.md#fetch_collection_1) | **Get** /posts | Fetch Collection
-[**fetch_resource**](PostsApi.md#fetch_resource) | **Get** /post-follows/{id} | Fetch Resource
-[**fetch_resource_0**](PostsApi.md#fetch_resource_0) | **Get** /post-likes/{id} | Fetch Resource
-[**fetch_resource_1**](PostsApi.md#fetch_resource_1) | **Get** /posts/{id} | Fetch Resource
-[**update_resource**](PostsApi.md#update_resource) | **Patch** /posts/{id} | Update Resource
+[**delete_resource12345**](PostsApi.md#delete_resource12345) | **delete** /posts/{id} | Delete Resource
+[**get_fetch_collection12345678**](PostsApi.md#get_fetch_collection12345678) | **get** /posts | Fetch Collection
+[**get_fetch_resource12345678**](PostsApi.md#get_fetch_resource12345678) | **get** /posts/{id} | Fetch Resource
+[**patch_update_resource1234**](PostsApi.md#patch_update_resource1234) | **patch** /posts/{id} | Update Resource
+[**post_create_resource1234**](PostsApi.md#post_create_resource1234) | **post** /posts | Create Resource
+[**post_follows_create_resource**](PostsApi.md#post_follows_create_resource) | **post** /post-follows | Post Follows_Create Resource
+[**post_follows_delete_resource**](PostsApi.md#post_follows_delete_resource) | **delete** /post-follows/{id} | Post Follows_Delete Resource
+[**post_follows_fetch_collection**](PostsApi.md#post_follows_fetch_collection) | **get** /post-follows | Post Follows_Fetch Collection
+[**post_follows_fetch_resource**](PostsApi.md#post_follows_fetch_resource) | **get** /post-follows/{id} | Post Follows_Fetch Resource
+[**post_likes_create_resource**](PostsApi.md#post_likes_create_resource) | **post** /post-likes | Post Likes_Create Resource
+[**post_likes_delete_resource**](PostsApi.md#post_likes_delete_resource) | **delete** /post-likes/{id} | Post Likes_Delete Resource
+[**post_likes_fetch_collection**](PostsApi.md#post_likes_fetch_collection) | **get** /post-likes | Post Likes_Fetch Collection
+[**post_likes_fetch_resource**](PostsApi.md#post_likes_fetch_resource) | **get** /post-likes/{id} | Post Likes_Fetch Resource
 
 
 
-## create_resource
+## delete_resource12345
 
-> create_resource()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## create_resource_0
-
-> create_resource_0()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## create_resource_1
-
-> create_resource_1()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## delete_resource
-
-> delete_resource(id)
+> delete_resource12345(id, content_type)
 Delete Resource
 
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y*    | Y Yes           | Admin     | Y   | N    | Y     | Y  \\* Post owner has 30 minutes from creation to edit the resource  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -118,157 +46,28 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## delete_resource_0
+## get_fetch_collection12345678
 
-> delete_resource_0(id)
-Delete Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## delete_resource_1
-
-> delete_resource_1(id)
-Delete Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection
-
-> crate::models::InlineResponse200 fetch_collection()
+> crate::models::FetchCollectionresponse9 get_fetch_collection12345678(id)
 Fetch Collection
 
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_0
-
-> crate::models::InlineResponse200 fetch_collection_0()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_1
-
-> crate::models::InlineResponse200 fetch_collection_1()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_resource
-
-> crate::models::InlineResponse20048 fetch_resource(id)
-Fetch Resource
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y*    | Y Yes           | Admin     | Y   | N    | Y     | Y  \\* Post owner has 30 minutes from creation to edit the resource  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20048**](inline_response_200_48.md)
+[**crate::models::FetchCollectionresponse9**](FetchCollectionresponse9.md)
 
 ### Authorization
 
@@ -277,26 +76,28 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_0
+## get_fetch_resource12345678
 
-> crate::models::InlineResponse20048 fetch_resource_0(id)
+> crate::models::FetchResourceresponse9 get_fetch_resource12345678(id)
 Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y*    | Y Yes           | Admin     | Y   | N    | Y     | Y  \\* Post owner has 30 minutes from creation to edit the resource  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20048**](inline_response_200_48.md)
+[**crate::models::FetchResourceresponse9**](FetchResourceresponse9.md)
 
 ### Authorization
 
@@ -305,50 +106,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_1
+## patch_update_resource1234
 
-> crate::models::InlineResponse20049 fetch_resource_1(id)
-Fetch Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
-[**crate::models::InlineResponse20049**](inline_response_200_49.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## update_resource
-
-> update_resource(id)
+> patch_update_resource1234(id, content_type)
 Update Resource
 
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y*    | Y Yes           | Admin     | Y   | N    | Y     | Y  \\* Post owner has 30 minutes from creation to edit the resource  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -361,7 +137,282 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## post_create_resource1234
+
+> post_create_resource1234(id, content_type)
+Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y*    | Y Yes           | Admin     | Y   | N    | Y     | Y  \\* Post owner has 30 minutes from creation to edit the resource  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## post_follows_create_resource
+
+> post_follows_create_resource(id, content_type)
+Post Follows_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `postId` | `1` `userId` | `42603`, `2,7`
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## post_follows_delete_resource
+
+> post_follows_delete_resource(id, content_type)
+Post Follows_Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `postId` | `1` `userId` | `42603`, `2,7`
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## post_follows_fetch_collection
+
+> crate::models::PostFollowsFetchCollectionresponse post_follows_fetch_collection(id)
+Post Follows_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `postId` | `1` `userId` | `42603`, `2,7`
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::PostFollowsFetchCollectionresponse**](PostFollows_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## post_follows_fetch_resource
+
+> crate::models::PostFollowsFetchResourceresponse post_follows_fetch_resource(id)
+Post Follows_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `postId` | `1` `userId` | `42603`, `2,7`
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::PostFollowsFetchResourceresponse**](PostFollows_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## post_likes_create_resource
+
+> post_likes_create_resource(id, content_type)
+Post Likes_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `postId` | `1` `userId` | `42603`, `2,7`
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## post_likes_delete_resource
+
+> post_likes_delete_resource(id, content_type)
+Post Likes_Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `postId` | `1` `userId` | `42603`, `2,7`
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## post_likes_fetch_collection
+
+> crate::models::PostLikesFetchCollectionresponse post_likes_fetch_collection(id)
+Post Likes_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `postId` | `1` `userId` | `42603`, `2,7`
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::PostLikesFetchCollectionresponse**](PostLikes_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## post_likes_fetch_resource
+
+> crate::models::PostLikesFetchResourceresponse post_likes_fetch_resource(id)
+Post Likes_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `postId` | `1` `userId` | `42603`, `2,7`
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::PostLikesFetchResourceresponse**](PostLikes_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 

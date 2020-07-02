@@ -4,24 +4,90 @@ All URIs are relative to *https://kitsu.io/api/edge*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**create_resource**](CategoriesApi.md#create_resource) | **Post** /category-favorites | Create Resource
-[**delete_resource**](CategoriesApi.md#delete_resource) | **Delete** /category-favorites/{id} | Delete Resource
-[**fetch_collection**](CategoriesApi.md#fetch_collection) | **Get** /categories | Fetch Collection
-[**fetch_collection_0**](CategoriesApi.md#fetch_collection_0) | **Get** /category-favorites | Fetch Collection
-[**fetch_resource**](CategoriesApi.md#fetch_resource) | **Get** /categories/{id} | Fetch Resource
-[**fetch_resource_0**](CategoriesApi.md#fetch_resource_0) | **Get** /category-favorites/{id} | Fetch Resource
-[**update_resource**](CategoriesApi.md#update_resource) | **Patch** /category-favorites/{id} | Update Resource
+[**category_favorites_fetch_collection**](CategoriesApi.md#category_favorites_fetch_collection) | **get** /category-favorites | Category Favorites_Fetch Collection
+[**category_favorites_fetch_resource**](CategoriesApi.md#category_favorites_fetch_resource) | **get** /category-favorites/{id} | Category Favorites_Fetch Resource
+[**create_resource**](CategoriesApi.md#create_resource) | **post** /category-favorites | Create Resource
+[**delete_resource**](CategoriesApi.md#delete_resource) | **delete** /category-favorites/{id} | Delete Resource
+[**get_fetch_collection1**](CategoriesApi.md#get_fetch_collection1) | **get** /categories | Fetch Collection
+[**get_fetch_resource1**](CategoriesApi.md#get_fetch_resource1) | **get** /categories/{id} | Fetch Resource
+[**update_resource**](CategoriesApi.md#update_resource) | **patch** /category-favorites/{id} | Update Resource
 
+
+
+## category_favorites_fetch_collection
+
+> crate::models::CategoryFavoritesFetchCollectionresponse category_favorites_fetch_collection(id)
+Category Favorites_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `userId` | `42603`, `2,7` `categoryId` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::CategoryFavoritesFetchCollectionresponse**](CategoryFavorites_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## category_favorites_fetch_resource
+
+> crate::models::CategoryFavoritesFetchResourceresponse category_favorites_fetch_resource(id)
+Category Favorites_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `userId` | `42603`, `2,7` `categoryId` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::CategoryFavoritesFetchResourceresponse**](CategoryFavorites_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
 ## create_resource
 
-> create_resource()
+> create_resource(id, content_type)
 Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `userId` | `42603`, `2,7` `categoryId` |
 
 ### Parameters
 
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -34,22 +100,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
 ## delete_resource
 
-> delete_resource(id)
+> delete_resource(id, content_type)
 Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `userId` | `42603`, `2,7` `categoryId` |
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -62,76 +131,28 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_collection
+## get_fetch_collection1
 
-> crate::models::InlineResponse200 fetch_collection()
+> crate::models::FetchCollectionresponse2 get_fetch_collection1(id)
 Fetch Collection
 
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_0
-
-> crate::models::InlineResponse200 fetch_collection_0()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_resource
-
-> crate::models::InlineResponse2007 fetch_resource(id)
-Fetch Resource
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `parentId` | `1` `slug` | | `nsfw` | `true`, `false`  **Pagination**  The maximum page limit is unlimited for this resource.
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse2007**](inline_response_200_7.md)
+[**crate::models::FetchCollectionresponse2**](FetchCollectionresponse2.md)
 
 ### Authorization
 
@@ -140,26 +161,28 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_0
+## get_fetch_resource1
 
-> crate::models::InlineResponse2008 fetch_resource_0(id)
+> crate::models::FetchResourceresponse2 get_fetch_resource1(id)
 Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `parentId` | `1` `slug` | | `nsfw` | `true`, `false`  **Pagination**  The maximum page limit is unlimited for this resource.
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse2008**](inline_response_200_8.md)
+[**crate::models::FetchResourceresponse2**](FetchResourceresponse2.md)
 
 ### Authorization
 
@@ -168,22 +191,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
 ## update_resource
 
-> update_resource(id)
+> update_resource(id, content_type)
 Update Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `userId` | `42603`, `2,7` `categoryId` |
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -196,7 +222,7 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 

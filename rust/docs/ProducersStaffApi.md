@@ -4,47 +4,53 @@ All URIs are relative to *https://kitsu.io/api/edge*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**create_resource**](ProducersStaffApi.md#create_resource) | **Post** /anime-productions | Create Resource
-[**create_resource_0**](ProducersStaffApi.md#create_resource_0) | **Post** /anime-staff | Create Resource
-[**create_resource_1**](ProducersStaffApi.md#create_resource_1) | **Post** /castings | Create Resource
-[**create_resource_2**](ProducersStaffApi.md#create_resource_2) | **Post** /manga-staff | Create Resource
-[**create_resource_3**](ProducersStaffApi.md#create_resource_3) | **Post** /people | Create Resource
-[**create_resource_4**](ProducersStaffApi.md#create_resource_4) | **Post** /producers | Create Resource
-[**delete_resource**](ProducersStaffApi.md#delete_resource) | **Delete** /anime-productions/{id} | Delete Resource
-[**delete_resource_0**](ProducersStaffApi.md#delete_resource_0) | **Delete** /anime-staff/{id} | Delete Resource
-[**delete_resource_1**](ProducersStaffApi.md#delete_resource_1) | **Delete** /castings/{id} | Delete Resource
-[**delete_resource_2**](ProducersStaffApi.md#delete_resource_2) | **Delete** /manga-staff/{id} | Delete Resource
-[**delete_resource_3**](ProducersStaffApi.md#delete_resource_3) | **Delete** /people/{id} | Delete Resource
-[**delete_resource_4**](ProducersStaffApi.md#delete_resource_4) | **Delete** /producers/{id} | Delete Resource
-[**fetch_collection**](ProducersStaffApi.md#fetch_collection) | **Get** /anime-productions | Fetch Collection
-[**fetch_collection_0**](ProducersStaffApi.md#fetch_collection_0) | **Get** /anime-staff | Fetch Collection
-[**fetch_collection_1**](ProducersStaffApi.md#fetch_collection_1) | **Get** /castings | Fetch Collection
-[**fetch_collection_2**](ProducersStaffApi.md#fetch_collection_2) | **Get** /manga-staff | Fetch Collection
-[**fetch_collection_3**](ProducersStaffApi.md#fetch_collection_3) | **Get** /people | Fetch Collection
-[**fetch_collection_4**](ProducersStaffApi.md#fetch_collection_4) | **Get** /producers | Fetch Collection
-[**fetch_resource**](ProducersStaffApi.md#fetch_resource) | **Get** /anime-productions/{id} | Fetch Resource
-[**fetch_resource_0**](ProducersStaffApi.md#fetch_resource_0) | **Get** /anime-staff/{id} | Fetch Resource
-[**fetch_resource_1**](ProducersStaffApi.md#fetch_resource_1) | **Get** /castings/{id} | Fetch Resource
-[**fetch_resource_2**](ProducersStaffApi.md#fetch_resource_2) | **Get** /manga-staff/{id} | Fetch Resource
-[**fetch_resource_3**](ProducersStaffApi.md#fetch_resource_3) | **Get** /people/{id} | Fetch Resource
-[**fetch_resource_4**](ProducersStaffApi.md#fetch_resource_4) | **Get** /producers/{id} | Fetch Resource
-[**update_resource**](ProducersStaffApi.md#update_resource) | **Patch** /anime-productions/{id} | Update Resource
-[**update_resource_0**](ProducersStaffApi.md#update_resource_0) | **Patch** /anime-staff/{id} | Update Resource
-[**update_resource_1**](ProducersStaffApi.md#update_resource_1) | **Patch** /castings/{id} | Update Resource
-[**update_resource_2**](ProducersStaffApi.md#update_resource_2) | **Patch** /manga-staff/{id} | Update Resource
-[**update_resource_3**](ProducersStaffApi.md#update_resource_3) | **Patch** /people/{id} | Update Resource
-[**update_resource_4**](ProducersStaffApi.md#update_resource_4) | **Patch** /producers/{id} | Update Resource
+[**anime_staff_create_resource**](ProducersStaffApi.md#anime_staff_create_resource) | **post** /anime-staff | Anime Staff_Create Resource
+[**anime_staff_delete_resource**](ProducersStaffApi.md#anime_staff_delete_resource) | **delete** /anime-staff/{id} | Anime Staff_Delete Resource
+[**anime_staff_fetch_collection**](ProducersStaffApi.md#anime_staff_fetch_collection) | **get** /anime-staff | Anime Staff_Fetch Collection
+[**anime_staff_fetch_resource**](ProducersStaffApi.md#anime_staff_fetch_resource) | **get** /anime-staff/{id} | Anime Staff_Fetch Resource
+[**anime_staff_update_resource**](ProducersStaffApi.md#anime_staff_update_resource) | **patch** /anime-staff/{id} | Anime Staff_Update Resource
+[**castings_create_resource**](ProducersStaffApi.md#castings_create_resource) | **post** /castings | Castings_Create Resource
+[**castings_delete_resource**](ProducersStaffApi.md#castings_delete_resource) | **delete** /castings/{id} | Castings_Delete Resource
+[**castings_fetch_collection**](ProducersStaffApi.md#castings_fetch_collection) | **get** /castings | Castings_Fetch Collection
+[**castings_fetch_resource**](ProducersStaffApi.md#castings_fetch_resource) | **get** /castings/{id} | Castings_Fetch Resource
+[**castings_update_resource**](ProducersStaffApi.md#castings_update_resource) | **patch** /castings/{id} | Castings_Update Resource
+[**delete_resource12345678**](ProducersStaffApi.md#delete_resource12345678) | **delete** /anime-productions/{id} | Delete Resource
+[**get_fetch_collection1234567891011**](ProducersStaffApi.md#get_fetch_collection1234567891011) | **get** /anime-productions | Fetch Collection
+[**get_fetch_resource1234567891011**](ProducersStaffApi.md#get_fetch_resource1234567891011) | **get** /anime-productions/{id} | Fetch Resource
+[**manga_staff_create_resource**](ProducersStaffApi.md#manga_staff_create_resource) | **post** /manga-staff | Manga Staff_Create Resource
+[**manga_staff_delete_resource**](ProducersStaffApi.md#manga_staff_delete_resource) | **delete** /manga-staff/{id} | Manga Staff_Delete Resource
+[**manga_staff_fetch_collection**](ProducersStaffApi.md#manga_staff_fetch_collection) | **get** /manga-staff | Manga Staff_Fetch Collection
+[**manga_staff_fetch_resource**](ProducersStaffApi.md#manga_staff_fetch_resource) | **get** /manga-staff/{id} | Manga Staff_Fetch Resource
+[**manga_staff_update_resource**](ProducersStaffApi.md#manga_staff_update_resource) | **patch** /manga-staff/{id} | Manga Staff_Update Resource
+[**patch_update_resource1234567**](ProducersStaffApi.md#patch_update_resource1234567) | **patch** /anime-productions/{id} | Update Resource
+[**people_create_resource**](ProducersStaffApi.md#people_create_resource) | **post** /people | People_Create Resource
+[**people_delete_resource**](ProducersStaffApi.md#people_delete_resource) | **delete** /people/{id} | People_Delete Resource
+[**people_fetch_collection**](ProducersStaffApi.md#people_fetch_collection) | **get** /people | People_Fetch Collection
+[**people_fetch_resource**](ProducersStaffApi.md#people_fetch_resource) | **get** /people/{id} | People_Fetch Resource
+[**people_update_resource**](ProducersStaffApi.md#people_update_resource) | **patch** /people/{id} | People_Update Resource
+[**post_create_resource1234567**](ProducersStaffApi.md#post_create_resource1234567) | **post** /anime-productions | Create Resource
+[**producers_create_resource**](ProducersStaffApi.md#producers_create_resource) | **post** /producers | Producers_Create Resource
+[**producers_delete_resource**](ProducersStaffApi.md#producers_delete_resource) | **delete** /producers/{id} | Producers_Delete Resource
+[**producers_fetch_collection**](ProducersStaffApi.md#producers_fetch_collection) | **get** /producers | Producers_Fetch Collection
+[**producers_fetch_resource**](ProducersStaffApi.md#producers_fetch_resource) | **get** /producers/{id} | Producers_Fetch Resource
+[**producers_update_resource**](ProducersStaffApi.md#producers_update_resource) | **patch** /producers/{id} | Producers_Update Resource
 
 
 
-## create_resource
+## anime_staff_create_resource
 
-> create_resource()
-Create Resource
+> anime_staff_create_resource(id, content_type)
+Anime Staff_Create Resource
+
+**Status**: In development. Replaces `castings`.  **Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -57,19 +63,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## create_resource_0
+## anime_staff_delete_resource
 
-> create_resource_0()
-Create Resource
+> anime_staff_delete_resource(id, content_type)
+Anime Staff_Delete Resource
+
+**Status**: In development. Replaces `castings`.  **Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -82,19 +94,85 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## create_resource_1
+## anime_staff_fetch_collection
 
-> create_resource_1()
-Create Resource
+> crate::models::AnimeStaffFetchCollectionresponse anime_staff_fetch_collection(id)
+Anime Staff_Fetch Collection
+
+**Status**: In development. Replaces `castings`.  **Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::AnimeStaffFetchCollectionresponse**](AnimeStaff_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## anime_staff_fetch_resource
+
+> crate::models::AnimeStaffFetchResourceresponse anime_staff_fetch_resource(id)
+Anime Staff_Fetch Resource
+
+**Status**: In development. Replaces `castings`.  **Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::AnimeStaffFetchResourceresponse**](AnimeStaff_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## anime_staff_update_resource
+
+> anime_staff_update_resource(id, content_type)
+Anime Staff_Update Resource
+
+**Status**: In development. Replaces `castings`.  **Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -107,19 +185,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## create_resource_2
+## castings_create_resource
 
-> create_resource_2()
-Create Resource
+> castings_create_resource(id, content_type)
+Castings_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `mediaId` | | **DEPRECATED** - use `anime_id`, `manga_id` or `drama_id` `mediaType` | `anime`, `anime,manga` | **DEPRECATED** - use `kind` `language` | `Japanese`, `English` `featured` | `true`, `false` `isCharacter` | `true`, `false`
 
 ### Parameters
 
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -132,19 +216,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## create_resource_3
+## castings_delete_resource
 
-> create_resource_3()
-Create Resource
+> castings_delete_resource(id, content_type)
+Castings_Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `mediaId` | | **DEPRECATED** - use `anime_id`, `manga_id` or `drama_id` `mediaType` | `anime`, `anime,manga` | **DEPRECATED** - use `kind` `language` | `Japanese`, `English` `featured` | `true`, `false` `isCharacter` | `true`, `false`
 
 ### Parameters
 
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -157,19 +247,85 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## create_resource_4
+## castings_fetch_collection
 
-> create_resource_4()
-Create Resource
+> crate::models::CastingsFetchCollectionresponse castings_fetch_collection(id)
+Castings_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `mediaId` | | **DEPRECATED** - use `anime_id`, `manga_id` or `drama_id` `mediaType` | `anime`, `anime,manga` | **DEPRECATED** - use `kind` `language` | `Japanese`, `English` `featured` | `true`, `false` `isCharacter` | `true`, `false`
 
 ### Parameters
 
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::CastingsFetchCollectionresponse**](Castings_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## castings_fetch_resource
+
+> crate::models::CastingsFetchResourceresponse castings_fetch_resource(id)
+Castings_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `mediaId` | | **DEPRECATED** - use `anime_id`, `manga_id` or `drama_id` `mediaType` | `anime`, `anime,manga` | **DEPRECATED** - use `kind` `language` | `Japanese`, `English` `featured` | `true`, `false` `isCharacter` | `true`, `false`
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::CastingsFetchResourceresponse**](Castings_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## castings_update_resource
+
+> castings_update_resource(id, content_type)
+Castings_Update Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `mediaId` | | **DEPRECATED** - use `anime_id`, `manga_id` or `drama_id` `mediaType` | `anime`, `anime,manga` | **DEPRECATED** - use `kind` `language` | `Japanese`, `English` `featured` | `true`, `false` `isCharacter` | `true`, `false`
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -182,22 +338,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## delete_resource
+## delete_resource12345678
 
-> delete_resource(id)
+> delete_resource12345678(id, content_type)
 Delete Resource
 
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `animeId` | `1`, `43,2,300` `producerId` | `1`, `2,3` `role` | | Values of the `role` attribute
+
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -210,163 +369,28 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## delete_resource_0
+## get_fetch_collection1234567891011
 
-> delete_resource_0(id)
-Delete Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## delete_resource_1
-
-> delete_resource_1(id)
-Delete Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## delete_resource_2
-
-> delete_resource_2(id)
-Delete Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## delete_resource_3
-
-> delete_resource_3(id)
-Delete Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## delete_resource_4
-
-> delete_resource_4(id)
-Delete Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection
-
-> crate::models::InlineResponse200 fetch_collection()
+> crate::models::FetchCollectionresponse12 get_fetch_collection1234567891011(id)
 Fetch Collection
 
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `animeId` | `1`, `43,2,300` `producerId` | `1`, `2,3` `role` | | Values of the `role` attribute
+
 ### Parameters
 
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse200**](inline_response_200.md)
+[**crate::models::FetchCollectionresponse12**](FetchCollectionresponse12.md)
 
 ### Authorization
 
@@ -375,151 +399,28 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_collection_0
+## get_fetch_resource1234567891011
 
-> crate::models::InlineResponse200 fetch_collection_0()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_1
-
-> crate::models::InlineResponse200 fetch_collection_1()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_2
-
-> crate::models::InlineResponse200 fetch_collection_2()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_3
-
-> crate::models::InlineResponse200 fetch_collection_3()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_4
-
-> crate::models::InlineResponse200 fetch_collection_4()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_resource
-
-> crate::models::InlineResponse2002 fetch_resource(id)
+> crate::models::FetchResourceresponse12 get_fetch_resource1234567891011(id)
 Fetch Resource
 
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `animeId` | `1`, `43,2,300` `producerId` | `1`, `2,3` `role` | | Values of the `role` attribute
+
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse2002**](inline_response_200_2.md)
+[**crate::models::FetchResourceresponse12**](FetchResourceresponse12.md)
 
 ### Authorization
 
@@ -528,162 +429,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_0
+## manga_staff_create_resource
 
-> crate::models::InlineResponse2003 fetch_resource_0(id)
-Fetch Resource
+> manga_staff_create_resource(id, content_type)
+Manga Staff_Create Resource
+
+**Status**: In development. Replaces `castings`.  **Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
-[**crate::models::InlineResponse2003**](inline_response_200_3.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_resource_1
-
-> crate::models::InlineResponse2006 fetch_resource_1(id)
-Fetch Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
-[**crate::models::InlineResponse2006**](inline_response_200_6.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_resource_2
-
-> crate::models::InlineResponse20038 fetch_resource_2(id)
-Fetch Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
-[**crate::models::InlineResponse20038**](inline_response_200_38.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_resource_3
-
-> crate::models::InlineResponse20047 fetch_resource_3(id)
-Fetch Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
-[**crate::models::InlineResponse20047**](inline_response_200_47.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_resource_4
-
-> crate::models::InlineResponse20050 fetch_resource_4(id)
-Fetch Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
-[**crate::models::InlineResponse20050**](inline_response_200_50.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## update_resource
-
-> update_resource(id)
-Update Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -696,22 +460,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## update_resource_0
+## manga_staff_delete_resource
 
-> update_resource_0(id)
-Update Resource
+> manga_staff_delete_resource(id, content_type)
+Manga Staff_Delete Resource
+
+**Status**: In development. Replaces `castings`.  **Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -724,22 +491,85 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## update_resource_1
+## manga_staff_fetch_collection
 
-> update_resource_1(id)
-Update Resource
+> crate::models::MangaStaffFetchCollectionresponse manga_staff_fetch_collection(id)
+Manga Staff_Fetch Collection
+
+**Status**: In development. Replaces `castings`.  **Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::MangaStaffFetchCollectionresponse**](MangaStaff_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## manga_staff_fetch_resource
+
+> crate::models::MangaStaffFetchResourceresponse manga_staff_fetch_resource(id)
+Manga Staff_Fetch Resource
+
+**Status**: In development. Replaces `castings`.  **Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::MangaStaffFetchResourceresponse**](MangaStaff_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## manga_staff_update_resource
+
+> manga_staff_update_resource(id, content_type)
+Manga Staff_Update Resource
+
+**Status**: In development. Replaces `castings`.  **Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -752,22 +582,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## update_resource_2
+## patch_update_resource1234567
 
-> update_resource_2(id)
+> patch_update_resource1234567(id, content_type)
 Update Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `animeId` | `1`, `43,2,300` `producerId` | `1`, `2,3` `role` | | Values of the `role` attribute
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -780,22 +613,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## update_resource_3
+## people_create_resource
 
-> update_resource_3(id)
-Update Resource
+> people_create_resource(id, content_type)
+People_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -808,22 +644,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## update_resource_4
+## people_delete_resource
 
-> update_resource_4(id)
-Update Resource
+> people_delete_resource(id, content_type)
+People_Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -836,7 +675,282 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## people_fetch_collection
+
+> crate::models::PeopleFetchCollectionresponse people_fetch_collection(id)
+People_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::PeopleFetchCollectionresponse**](People_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## people_fetch_resource
+
+> crate::models::PeopleFetchResourceresponse people_fetch_resource(id)
+People_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::PeopleFetchResourceresponse**](People_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## people_update_resource
+
+> people_update_resource(id, content_type)
+People_Update Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## post_create_resource1234567
+
+> post_create_resource1234567(id, content_type)
+Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `animeId` | `1`, `43,2,300` `producerId` | `1`, `2,3` `role` | | Values of the `role` attribute
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## producers_create_resource
+
+> producers_create_resource(id, content_type)
+Producers_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `slug` | |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## producers_delete_resource
+
+> producers_delete_resource(id, content_type)
+Producers_Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `slug` | |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## producers_fetch_collection
+
+> crate::models::ProducersFetchCollectionresponse producers_fetch_collection(id)
+Producers_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `slug` | |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::ProducersFetchCollectionresponse**](Producers_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## producers_fetch_resource
+
+> crate::models::ProducersFetchResourceresponse producers_fetch_resource(id)
+Producers_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `slug` | |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::ProducersFetchResourceresponse**](Producers_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## producers_update_resource
+
+> producers_update_resource(id, content_type)
+Producers_Update Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `slug` | |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 

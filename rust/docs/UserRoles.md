@@ -4,11 +4,11 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**attributes** | Option<[**crate::models::UserRolesAttributes**](userRolesAttributes.md)> |  | [optional]
 **id** | **String** |  | 
-**links** | Option<[**crate::models::InlineResponse2001DataLinks**](inline_response_200_1_data_links.md)> |  | [optional]
-**relationships** | Option<[**crate::models::InlineResponse20062DataRelationships**](inline_response_200_62_data_relationships.md)> |  | [optional]
 **_type** | **String** |  | 
+**links** | Option<[**crate::models::Links**](links.md)> |  | [optional]
+**attributes** | Option<[**crate::models::UserRolesAttributes**](userRolesAttributes.md)> |  | [optional]
+**relationships** | Option<[**crate::models::Relationships59**](relationships59.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

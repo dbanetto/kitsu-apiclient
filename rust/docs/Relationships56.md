@@ -1,0 +1,12 @@
+# Relationships56
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**user** | Option<[**crate::models::User**](user.md)> |  | [optional]
+**profile_link_site** | Option<[**crate::models::ProfileLinkSite**](profileLinkSite.md)> |  | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

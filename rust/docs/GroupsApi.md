@@ -4,377 +4,80 @@ All URIs are relative to *https://kitsu.io/api/edge*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**create_resource**](GroupsApi.md#create_resource) | **Post** /group-bans | Create Resource
-[**create_resource_0**](GroupsApi.md#create_resource_0) | **Post** /group-categories | Create Resource
-[**create_resource_1**](GroupsApi.md#create_resource_1) | **Post** /group-invites | Create Resource
-[**create_resource_10**](GroupsApi.md#create_resource_10) | **Post** /leader-chat-messages | Create Resource
-[**create_resource_2**](GroupsApi.md#create_resource_2) | **Post** /group-member-notes | Create Resource
-[**create_resource_3**](GroupsApi.md#create_resource_3) | **Post** /group-members | Create Resource
-[**create_resource_4**](GroupsApi.md#create_resource_4) | **Post** /group-neighbors | Create Resource
-[**create_resource_5**](GroupsApi.md#create_resource_5) | **Post** /group-permissions | Create Resource
-[**create_resource_6**](GroupsApi.md#create_resource_6) | **Post** /group-reports | Create Resource
-[**create_resource_7**](GroupsApi.md#create_resource_7) | **Post** /group-ticket-messages | Create Resource
-[**create_resource_8**](GroupsApi.md#create_resource_8) | **Post** /group-tickets | Create Resource
-[**create_resource_9**](GroupsApi.md#create_resource_9) | **Post** /groups | Create Resource
-[**delete_resource**](GroupsApi.md#delete_resource) | **Delete** /group-bans/{id} | Delete Resource
-[**delete_resource_0**](GroupsApi.md#delete_resource_0) | **Delete** /group-categories/{id} | Delete Resource
-[**delete_resource_1**](GroupsApi.md#delete_resource_1) | **Delete** /group-invites/{id} | Delete Resource
-[**delete_resource_2**](GroupsApi.md#delete_resource_2) | **Delete** /group-member-notes/{id} | Delete Resource
-[**delete_resource_3**](GroupsApi.md#delete_resource_3) | **Delete** /group-members/{id} | Delete Resource
-[**delete_resource_4**](GroupsApi.md#delete_resource_4) | **Delete** /group-neighbors/{id} | Delete Resource
-[**delete_resource_5**](GroupsApi.md#delete_resource_5) | **Delete** /group-permissions/{id} | Delete Resource
-[**delete_resource_6**](GroupsApi.md#delete_resource_6) | **Delete** /group-ticket-messages/{id} | Delete Resource
-[**delete_resource_7**](GroupsApi.md#delete_resource_7) | **Delete** /groups/{id} | Delete Resource
-[**delete_resource_8**](GroupsApi.md#delete_resource_8) | **Delete** /leader-chat-messages/{id} | Delete Resource
-[**fetch_collection**](GroupsApi.md#fetch_collection) | **Get** /group-action-logs | Fetch Collection
-[**fetch_collection_0**](GroupsApi.md#fetch_collection_0) | **Get** /group-bans | Fetch Collection
-[**fetch_collection_1**](GroupsApi.md#fetch_collection_1) | **Get** /group-categories | Fetch Collection
-[**fetch_collection_10**](GroupsApi.md#fetch_collection_10) | **Get** /groups | Fetch Collection
-[**fetch_collection_11**](GroupsApi.md#fetch_collection_11) | **Get** /leader-chat-messages | Fetch Collection
-[**fetch_collection_2**](GroupsApi.md#fetch_collection_2) | **Get** /group-invites | Fetch Collection
-[**fetch_collection_3**](GroupsApi.md#fetch_collection_3) | **Get** /group-member-notes | Fetch Collection
-[**fetch_collection_4**](GroupsApi.md#fetch_collection_4) | **Get** /group-members | Fetch Collection
-[**fetch_collection_5**](GroupsApi.md#fetch_collection_5) | **Get** /group-neighbors | Fetch Collection
-[**fetch_collection_6**](GroupsApi.md#fetch_collection_6) | **Get** /group-permissions | Fetch Collection
-[**fetch_collection_7**](GroupsApi.md#fetch_collection_7) | **Get** /group-reports | Fetch Collection
-[**fetch_collection_8**](GroupsApi.md#fetch_collection_8) | **Get** /group-ticket-messages | Fetch Collection
-[**fetch_collection_9**](GroupsApi.md#fetch_collection_9) | **Get** /group-tickets | Fetch Collection
-[**fetch_resource**](GroupsApi.md#fetch_resource) | **Get** /group-action-logs/{id} | Fetch Resource
-[**fetch_resource_0**](GroupsApi.md#fetch_resource_0) | **Get** /group-bans/{id} | Fetch Resource
-[**fetch_resource_1**](GroupsApi.md#fetch_resource_1) | **Get** /group-categories/{id} | Fetch Resource
-[**fetch_resource_10**](GroupsApi.md#fetch_resource_10) | **Get** /groups/{id} | Fetch Resource
-[**fetch_resource_11**](GroupsApi.md#fetch_resource_11) | **Get** /leader-chat-messages/{id} | Fetch Resource
-[**fetch_resource_2**](GroupsApi.md#fetch_resource_2) | **Get** /group-invites/{id} | Fetch Resource
-[**fetch_resource_3**](GroupsApi.md#fetch_resource_3) | **Get** /group-member-notes/{id} | Fetch Resource
-[**fetch_resource_4**](GroupsApi.md#fetch_resource_4) | **Get** /group-members/{id} | Fetch Resource
-[**fetch_resource_5**](GroupsApi.md#fetch_resource_5) | **Get** /group-neighbors/{id} | Fetch Resource
-[**fetch_resource_6**](GroupsApi.md#fetch_resource_6) | **Get** /group-permissions/{id} | Fetch Resource
-[**fetch_resource_7**](GroupsApi.md#fetch_resource_7) | **Get** /group-reports/{id} | Fetch Resource
-[**fetch_resource_8**](GroupsApi.md#fetch_resource_8) | **Get** /group-ticket-messages/{id} | Fetch Resource
-[**fetch_resource_9**](GroupsApi.md#fetch_resource_9) | **Get** /group-tickets/{id} | Fetch Resource
-[**update_resource**](GroupsApi.md#update_resource) | **Patch** /group-categories/{id} | Update Resource
-[**update_resource_0**](GroupsApi.md#update_resource_0) | **Patch** /group-invites/{id} | Update Resource
-[**update_resource_1**](GroupsApi.md#update_resource_1) | **Patch** /group-member-notes/{id} | Update Resource
-[**update_resource_2**](GroupsApi.md#update_resource_2) | **Patch** /group-members/{id} | Update Resource
-[**update_resource_3**](GroupsApi.md#update_resource_3) | **Patch** /group-reports/{id} | Update Resource
-[**update_resource_4**](GroupsApi.md#update_resource_4) | **Patch** /group-ticket-messages/{id} | Update Resource
-[**update_resource_5**](GroupsApi.md#update_resource_5) | **Patch** /group-tickets/{id} | Update Resource
-[**update_resource_6**](GroupsApi.md#update_resource_6) | **Patch** /groups/{id} | Update Resource
-[**update_resource_7**](GroupsApi.md#update_resource_7) | **Patch** /leader-chat-messages/{id} | Update Resource
-
-
-
-## create_resource
-
-> create_resource()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## create_resource_0
-
-> create_resource_0()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## create_resource_1
-
-> create_resource_1()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## create_resource_10
-
-> create_resource_10()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## create_resource_2
-
-> create_resource_2()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## create_resource_3
-
-> create_resource_3()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## create_resource_4
-
-> create_resource_4()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## create_resource_5
-
-> create_resource_5()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## create_resource_6
-
-> create_resource_6()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## create_resource_7
-
-> create_resource_7()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## create_resource_8
-
-> create_resource_8()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## create_resource_9
-
-> create_resource_9()
-Create Resource
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## delete_resource
-
-> delete_resource(id)
+[**delete_resource123456789**](GroupsApi.md#delete_resource123456789) | **delete** /groups/{id} | Delete Resource
+[**get_fetch_collection123456789101112**](GroupsApi.md#get_fetch_collection123456789101112) | **get** /groups | Fetch Collection
+[**get_fetch_resource123456789101112**](GroupsApi.md#get_fetch_resource123456789101112) | **get** /groups/{id} | Fetch Resource
+[**group_action_logs_fetch_collection**](GroupsApi.md#group_action_logs_fetch_collection) | **get** /group-action-logs | Group Action Logs_Fetch Collection
+[**group_action_logs_fetch_resource**](GroupsApi.md#group_action_logs_fetch_resource) | **get** /group-action-logs/{id} | Group Action Logs_Fetch Resource
+[**group_bans_create_resource**](GroupsApi.md#group_bans_create_resource) | **post** /group-bans | Group Bans_Create Resource
+[**group_bans_delete_resource**](GroupsApi.md#group_bans_delete_resource) | **delete** /group-bans/{id} | Group Bans_Delete Resource
+[**group_bans_fetch_collection**](GroupsApi.md#group_bans_fetch_collection) | **get** /group-bans | Group Bans_Fetch Collection
+[**group_bans_fetch_resource**](GroupsApi.md#group_bans_fetch_resource) | **get** /group-bans/{id} | Group Bans_Fetch Resource
+[**group_categories_create_resource**](GroupsApi.md#group_categories_create_resource) | **post** /group-categories | Group Categories_Create Resource
+[**group_categories_delete_resource**](GroupsApi.md#group_categories_delete_resource) | **delete** /group-categories/{id} | Group Categories_Delete Resource
+[**group_categories_fetch_collection**](GroupsApi.md#group_categories_fetch_collection) | **get** /group-categories | Group Categories_Fetch Collection
+[**group_categories_fetch_resource**](GroupsApi.md#group_categories_fetch_resource) | **get** /group-categories/{id} | Group Categories_Fetch Resource
+[**group_categories_update_resource**](GroupsApi.md#group_categories_update_resource) | **patch** /group-categories/{id} | Group Categories_Update Resource
+[**group_invites_create_resource**](GroupsApi.md#group_invites_create_resource) | **post** /group-invites | Group Invites_Create Resource
+[**group_invites_delete_resource**](GroupsApi.md#group_invites_delete_resource) | **delete** /group-invites/{id} | Group Invites_Delete Resource
+[**group_invites_fetch_collection**](GroupsApi.md#group_invites_fetch_collection) | **get** /group-invites | Group Invites_Fetch Collection
+[**group_invites_fetch_resource**](GroupsApi.md#group_invites_fetch_resource) | **get** /group-invites/{id} | Group Invites_Fetch Resource
+[**group_invites_update_resource**](GroupsApi.md#group_invites_update_resource) | **patch** /group-invites/{id} | Group Invites_Update Resource
+[**group_member_notes_create_resource**](GroupsApi.md#group_member_notes_create_resource) | **post** /group-member-notes | Group Member Notes_Create Resource
+[**group_member_notes_delete_resource**](GroupsApi.md#group_member_notes_delete_resource) | **delete** /group-member-notes/{id} | Group Member Notes_Delete Resource
+[**group_member_notes_fetch_collection**](GroupsApi.md#group_member_notes_fetch_collection) | **get** /group-member-notes | Group Member Notes_Fetch Collection
+[**group_member_notes_fetch_resource**](GroupsApi.md#group_member_notes_fetch_resource) | **get** /group-member-notes/{id} | Group Member Notes_Fetch Resource
+[**group_member_notes_update_resource**](GroupsApi.md#group_member_notes_update_resource) | **patch** /group-member-notes/{id} | Group Member Notes_Update Resource
+[**group_members_create_resource**](GroupsApi.md#group_members_create_resource) | **post** /group-members | Group Members_Create Resource
+[**group_members_delete_resource**](GroupsApi.md#group_members_delete_resource) | **delete** /group-members/{id} | Group Members_Delete Resource
+[**group_members_fetch_collection**](GroupsApi.md#group_members_fetch_collection) | **get** /group-members | Group Members_Fetch Collection
+[**group_members_fetch_resource**](GroupsApi.md#group_members_fetch_resource) | **get** /group-members/{id} | Group Members_Fetch Resource
+[**group_members_update_resource**](GroupsApi.md#group_members_update_resource) | **patch** /group-members/{id} | Group Members_Update Resource
+[**group_neighbors_create_resource**](GroupsApi.md#group_neighbors_create_resource) | **post** /group-neighbors | Group Neighbors_Create Resource
+[**group_neighbors_delete_resource**](GroupsApi.md#group_neighbors_delete_resource) | **delete** /group-neighbors/{id} | Group Neighbors_Delete Resource
+[**group_neighbors_fetch_collection**](GroupsApi.md#group_neighbors_fetch_collection) | **get** /group-neighbors | Group Neighbors_Fetch Collection
+[**group_neighbors_fetch_resource**](GroupsApi.md#group_neighbors_fetch_resource) | **get** /group-neighbors/{id} | Group Neighbors_Fetch Resource
+[**group_permissions_create_resource**](GroupsApi.md#group_permissions_create_resource) | **post** /group-permissions | Group Permissions_Create Resource
+[**group_permissions_delete_resource**](GroupsApi.md#group_permissions_delete_resource) | **delete** /group-permissions/{id} | Group Permissions_Delete Resource
+[**group_permissions_fetch_collection**](GroupsApi.md#group_permissions_fetch_collection) | **get** /group-permissions | Group Permissions_Fetch Collection
+[**group_permissions_fetch_resource**](GroupsApi.md#group_permissions_fetch_resource) | **get** /group-permissions/{id} | Group Permissions_Fetch Resource
+[**group_reports_create_resource**](GroupsApi.md#group_reports_create_resource) | **post** /group-reports | Group Reports_Create Resource
+[**group_reports_fetch_collection**](GroupsApi.md#group_reports_fetch_collection) | **get** /group-reports | Group Reports_Fetch Collection
+[**group_reports_fetch_resource**](GroupsApi.md#group_reports_fetch_resource) | **get** /group-reports/{id} | Group Reports_Fetch Resource
+[**group_reports_update_resource**](GroupsApi.md#group_reports_update_resource) | **patch** /group-reports/{id} | Group Reports_Update Resource
+[**group_ticket_messages_create_resource**](GroupsApi.md#group_ticket_messages_create_resource) | **post** /group-ticket-messages | Group Ticket Messages_Create Resource
+[**group_ticket_messages_delete_resource**](GroupsApi.md#group_ticket_messages_delete_resource) | **delete** /group-ticket-messages/{id} | Group Ticket Messages_Delete Resource
+[**group_ticket_messages_fetch_collection**](GroupsApi.md#group_ticket_messages_fetch_collection) | **get** /group-ticket-messages | Group Ticket Messages_Fetch Collection
+[**group_ticket_messages_fetch_resource**](GroupsApi.md#group_ticket_messages_fetch_resource) | **get** /group-ticket-messages/{id} | Group Ticket Messages_Fetch Resource
+[**group_ticket_messages_update_resource**](GroupsApi.md#group_ticket_messages_update_resource) | **patch** /group-ticket-messages/{id} | Group Ticket Messages_Update Resource
+[**group_tickets_create_resource**](GroupsApi.md#group_tickets_create_resource) | **post** /group-tickets | Group Tickets_Create Resource
+[**group_tickets_fetch_collection**](GroupsApi.md#group_tickets_fetch_collection) | **get** /group-tickets | Group Tickets_Fetch Collection
+[**group_tickets_fetch_resource**](GroupsApi.md#group_tickets_fetch_resource) | **get** /group-tickets/{id} | Group Tickets_Fetch Resource
+[**group_tickets_update_resource**](GroupsApi.md#group_tickets_update_resource) | **patch** /group-tickets/{id} | Group Tickets_Update Resource
+[**leader_chat_messages_create_resource**](GroupsApi.md#leader_chat_messages_create_resource) | **post** /leader-chat-messages | Leader Chat Messages_Create Resource
+[**leader_chat_messages_delete_resource**](GroupsApi.md#leader_chat_messages_delete_resource) | **delete** /leader-chat-messages/{id} | Leader Chat Messages_Delete Resource
+[**leader_chat_messages_fetch_collection**](GroupsApi.md#leader_chat_messages_fetch_collection) | **get** /leader-chat-messages | Leader Chat Messages_Fetch Collection
+[**leader_chat_messages_fetch_resource**](GroupsApi.md#leader_chat_messages_fetch_resource) | **get** /leader-chat-messages/{id} | Leader Chat Messages_Fetch Resource
+[**leader_chat_messages_update_resource**](GroupsApi.md#leader_chat_messages_update_resource) | **patch** /leader-chat-messages/{id} | Leader Chat Messages_Update Resource
+[**patch_update_resource12345678**](GroupsApi.md#patch_update_resource12345678) | **patch** /groups/{id} | Update Resource
+[**post_create_resource12345678**](GroupsApi.md#post_create_resource12345678) | **post** /groups | Create Resource
+
+
+
+## delete_resource123456789
+
+> delete_resource123456789(id, content_type)
 Delete Resource
 
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `featured` | `true`, `false` `category` | `privacy` | `open`, `closed`, `restricted` `query` | | Search resource
+
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -387,22 +90,145 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## delete_resource_0
+## get_fetch_collection123456789101112
 
-> delete_resource_0(id)
-Delete Resource
+> crate::models::FetchCollectionresponse13 get_fetch_collection123456789101112(id)
+Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `featured` | `true`, `false` `category` | `privacy` | `open`, `closed`, `restricted` `query` | | Search resource
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::FetchCollectionresponse13**](FetchCollectionresponse13.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## get_fetch_resource123456789101112
+
+> crate::models::FetchResourceresponse13 get_fetch_resource123456789101112(id)
+Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `featured` | `true`, `false` `category` | `privacy` | `open`, `closed`, `restricted` `query` | | Search resource
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::FetchResourceresponse13**](FetchResourceresponse13.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_action_logs_fetch_collection
+
+> crate::models::GroupActionLogsFetchCollectionresponse group_action_logs_fetch_collection(id)
+Group Action Logs_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupActionLogsFetchCollectionresponse**](GroupActionLogs_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_action_logs_fetch_resource
+
+> crate::models::GroupActionLogsFetchResourceresponse group_action_logs_fetch_resource(id)
+Group Action Logs_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupActionLogsFetchResourceresponse**](GroupActionLogs_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_bans_create_resource
+
+> group_bans_create_resource(id, content_type)
+Group Bans_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -415,22 +241,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## delete_resource_1
+## group_bans_delete_resource
 
-> delete_resource_1(id)
-Delete Resource
+> group_bans_delete_resource(id, content_type)
+Group Bans_Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` |
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -443,22 +272,85 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## delete_resource_2
+## group_bans_fetch_collection
 
-> delete_resource_2(id)
-Delete Resource
+> crate::models::GroupBansFetchCollectionresponse group_bans_fetch_collection(id)
+Group Bans_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` |
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupBansFetchCollectionresponse**](GroupBans_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_bans_fetch_resource
+
+> crate::models::GroupBansFetchResourceresponse group_bans_fetch_resource(id)
+Group Bans_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupBansFetchResourceresponse**](GroupBans_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_categories_create_resource
+
+> group_categories_create_resource(id, content_type)
+Group Categories_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `slug` | |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -471,22 +363,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## delete_resource_3
+## group_categories_delete_resource
 
-> delete_resource_3(id)
-Delete Resource
+> group_categories_delete_resource(id, content_type)
+Group Categories_Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `slug` | |
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -499,22 +394,85 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## delete_resource_4
+## group_categories_fetch_collection
 
-> delete_resource_4(id)
-Delete Resource
+> crate::models::GroupCategoriesFetchCollectionresponse group_categories_fetch_collection(id)
+Group Categories_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `slug` | |
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupCategoriesFetchCollectionresponse**](GroupCategories_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_categories_fetch_resource
+
+> crate::models::GroupCategoriesFetchResourceresponse group_categories_fetch_resource(id)
+Group Categories_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `slug` | |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupCategoriesFetchResourceresponse**](GroupCategories_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_categories_update_resource
+
+> group_categories_update_resource(id, content_type)
+Group Categories_Update Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | N    | N     | N Yes           | Admin     | Y   | Y    | Y     | Y  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `slug` | |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -527,22 +485,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## delete_resource_5
+## group_invites_create_resource
 
-> delete_resource_5(id)
-Delete Resource
+> group_invites_create_resource(id, content_type)
+Group Invites_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` | `sender` | `user` | `status` | `current`, `onHold` | Values of the `status` attribute
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -555,22 +516,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## delete_resource_6
+## group_invites_delete_resource
 
-> delete_resource_6(id)
-Delete Resource
+> group_invites_delete_resource(id, content_type)
+Group Invites_Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` | `sender` | `user` | `status` | `current`, `onHold` | Values of the `status` attribute
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -583,22 +547,85 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## delete_resource_7
+## group_invites_fetch_collection
 
-> delete_resource_7(id)
-Delete Resource
+> crate::models::GroupInvitesFetchCollectionresponse group_invites_fetch_collection(id)
+Group Invites_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` | `sender` | `user` | `status` | `current`, `onHold` | Values of the `status` attribute
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupInvitesFetchCollectionresponse**](GroupInvites_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_invites_fetch_resource
+
+> crate::models::GroupInvitesFetchResourceresponse group_invites_fetch_resource(id)
+Group Invites_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` | `sender` | `user` | `status` | `current`, `onHold` | Values of the `status` attribute
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupInvitesFetchResourceresponse**](GroupInvites_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_invites_update_resource
+
+> group_invites_update_resource(id, content_type)
+Group Invites_Update Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` | `sender` | `user` | `status` | `current`, `onHold` | Values of the `status` attribute
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -611,22 +638,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## delete_resource_8
+## group_member_notes_create_resource
 
-> delete_resource_8(id)
-Delete Resource
+> group_member_notes_create_resource(id, content_type)
+Group Member Notes_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -639,351 +669,29 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_collection
+## group_member_notes_delete_resource
 
-> crate::models::InlineResponse200 fetch_collection()
-Fetch Collection
+> group_member_notes_delete_resource(id, content_type)
+Group Member Notes_Delete Resource
 
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_0
-
-> crate::models::InlineResponse200 fetch_collection_0()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_1
-
-> crate::models::InlineResponse200 fetch_collection_1()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_10
-
-> crate::models::InlineResponse200 fetch_collection_10()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_11
-
-> crate::models::InlineResponse200 fetch_collection_11()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_2
-
-> crate::models::InlineResponse200 fetch_collection_2()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_3
-
-> crate::models::InlineResponse200 fetch_collection_3()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_4
-
-> crate::models::InlineResponse200 fetch_collection_4()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_5
-
-> crate::models::InlineResponse200 fetch_collection_5()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_6
-
-> crate::models::InlineResponse200 fetch_collection_6()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_7
-
-> crate::models::InlineResponse200 fetch_collection_7()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_8
-
-> crate::models::InlineResponse200 fetch_collection_8()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_collection_9
-
-> crate::models::InlineResponse200 fetch_collection_9()
-Fetch Collection
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-[**crate::models::InlineResponse200**](inline_response_200.md)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## fetch_resource
-
-> crate::models::InlineResponse20017 fetch_resource(id)
-Fetch Resource
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20017**](inline_response_200_17.md)
+ (empty response body)
 
 ### Authorization
 
@@ -992,26 +700,28 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_0
+## group_member_notes_fetch_collection
 
-> crate::models::InlineResponse20018 fetch_resource_0(id)
-Fetch Resource
+> crate::models::GroupMemberNotesFetchCollectionresponse group_member_notes_fetch_collection(id)
+Group Member Notes_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20018**](inline_response_200_18.md)
+[**crate::models::GroupMemberNotesFetchCollectionresponse**](GroupMemberNotes_FetchCollectionresponse.md)
 
 ### Authorization
 
@@ -1020,26 +730,28 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_1
+## group_member_notes_fetch_resource
 
-> crate::models::InlineResponse20019 fetch_resource_1(id)
-Fetch Resource
+> crate::models::GroupMemberNotesFetchResourceresponse group_member_notes_fetch_resource(id)
+Group Member Notes_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20019**](inline_response_200_19.md)
+[**crate::models::GroupMemberNotesFetchResourceresponse**](GroupMemberNotes_FetchResourceresponse.md)
 
 ### Authorization
 
@@ -1048,26 +760,29 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_10
+## group_member_notes_update_resource
 
-> crate::models::InlineResponse20028 fetch_resource_10(id)
-Fetch Resource
+> group_member_notes_update_resource(id, content_type)
+Group Member Notes_Update Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20028**](inline_response_200_28.md)
+ (empty response body)
 
 ### Authorization
 
@@ -1076,26 +791,29 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_11
+## group_members_create_resource
 
-> crate::models::InlineResponse20030 fetch_resource_11(id)
-Fetch Resource
+> group_members_create_resource(id, content_type)
+Group Members_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `rank` | `group` | `user` | `queryGroup` | `queryUser` | `queryRank` | `groupCategory` | `groupName` | `query` | | Search resource
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20030**](inline_response_200_30.md)
+ (empty response body)
 
 ### Authorization
 
@@ -1104,26 +822,29 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_2
+## group_members_delete_resource
 
-> crate::models::InlineResponse20020 fetch_resource_2(id)
-Fetch Resource
+> group_members_delete_resource(id, content_type)
+Group Members_Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `rank` | `group` | `user` | `queryGroup` | `queryUser` | `queryRank` | `groupCategory` | `groupName` | `query` | | Search resource
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20020**](inline_response_200_20.md)
+ (empty response body)
 
 ### Authorization
 
@@ -1132,26 +853,28 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_3
+## group_members_fetch_collection
 
-> crate::models::InlineResponse20021 fetch_resource_3(id)
-Fetch Resource
+> crate::models::GroupMembersFetchCollectionresponse group_members_fetch_collection(id)
+Group Members_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `rank` | `group` | `user` | `queryGroup` | `queryUser` | `queryRank` | `groupCategory` | `groupName` | `query` | | Search resource
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20021**](inline_response_200_21.md)
+[**crate::models::GroupMembersFetchCollectionresponse**](GroupMembers_FetchCollectionresponse.md)
 
 ### Authorization
 
@@ -1160,26 +883,28 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_4
+## group_members_fetch_resource
 
-> crate::models::InlineResponse20022 fetch_resource_4(id)
-Fetch Resource
+> crate::models::GroupMembersFetchResourceresponse group_members_fetch_resource(id)
+Group Members_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `rank` | `group` | `user` | `queryGroup` | `queryUser` | `queryRank` | `groupCategory` | `groupName` | `query` | | Search resource
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20022**](inline_response_200_22.md)
+[**crate::models::GroupMembersFetchResourceresponse**](GroupMembers_FetchResourceresponse.md)
 
 ### Authorization
 
@@ -1188,26 +913,29 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_5
+## group_members_update_resource
 
-> crate::models::InlineResponse20023 fetch_resource_5(id)
-Fetch Resource
+> group_members_update_resource(id, content_type)
+Group Members_Update Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `rank` | `group` | `user` | `queryGroup` | `queryUser` | `queryRank` | `groupCategory` | `groupName` | `query` | | Search resource
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20023**](inline_response_200_23.md)
+ (empty response body)
 
 ### Authorization
 
@@ -1216,26 +944,29 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_6
+## group_neighbors_create_resource
 
-> crate::models::InlineResponse20024 fetch_resource_6(id)
-Fetch Resource
+> group_neighbors_create_resource(id, content_type)
+Group Neighbors_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `source` | `destination` |
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20024**](inline_response_200_24.md)
+ (empty response body)
 
 ### Authorization
 
@@ -1244,26 +975,29 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_7
+## group_neighbors_delete_resource
 
-> crate::models::InlineResponse20025 fetch_resource_7(id)
-Fetch Resource
+> group_neighbors_delete_resource(id, content_type)
+Group Neighbors_Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `source` | `destination` |
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20025**](inline_response_200_25.md)
+ (empty response body)
 
 ### Authorization
 
@@ -1272,26 +1006,28 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_8
+## group_neighbors_fetch_collection
 
-> crate::models::InlineResponse20026 fetch_resource_8(id)
-Fetch Resource
+> crate::models::GroupNeighborsFetchCollectionresponse group_neighbors_fetch_collection(id)
+Group Neighbors_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `source` | `destination` |
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20026**](inline_response_200_26.md)
+[**crate::models::GroupNeighborsFetchCollectionresponse**](GroupNeighbors_FetchCollectionresponse.md)
 
 ### Authorization
 
@@ -1300,26 +1036,28 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## fetch_resource_9
+## group_neighbors_fetch_resource
 
-> crate::models::InlineResponse20027 fetch_resource_9(id)
-Fetch Resource
+> crate::models::GroupNeighborsFetchResourceresponse group_neighbors_fetch_resource(id)
+Group Neighbors_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `source` | `destination` |
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
 
 ### Return type
 
-[**crate::models::InlineResponse20027**](inline_response_200_27.md)
+[**crate::models::GroupNeighborsFetchResourceresponse**](GroupNeighbors_FetchResourceresponse.md)
 
 ### Authorization
 
@@ -1328,22 +1066,697 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/vnd.api+json, application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## update_resource
+## group_permissions_create_resource
 
-> update_resource(id)
+> group_permissions_create_resource(id, content_type)
+Group Permissions_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_permissions_delete_resource
+
+> group_permissions_delete_resource(id, content_type)
+Group Permissions_Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_permissions_fetch_collection
+
+> crate::models::GroupPermissionsFetchCollectionresponse group_permissions_fetch_collection(id)
+Group Permissions_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupPermissionsFetchCollectionresponse**](GroupPermissions_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_permissions_fetch_resource
+
+> crate::models::GroupPermissionsFetchResourceresponse group_permissions_fetch_resource(id)
+Group Permissions_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | N     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :----
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupPermissionsFetchResourceresponse**](GroupPermissions_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_reports_create_resource
+
+> group_reports_create_resource(id, content_type)
+Group Reports_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | N Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` | `user` | `naughty` | `naughtyType` | `Post`, `Comment`, `Review`, `Reaction` `reason` | `nsfw`, `spoiler` `status` | `current`, `onHold` | Values of the `status` attribute
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_reports_fetch_collection
+
+> crate::models::GroupReportsFetchCollectionresponse group_reports_fetch_collection(id)
+Group Reports_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | N Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` | `user` | `naughty` | `naughtyType` | `Post`, `Comment`, `Review`, `Reaction` `reason` | `nsfw`, `spoiler` `status` | `current`, `onHold` | Values of the `status` attribute
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupReportsFetchCollectionresponse**](GroupReports_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_reports_fetch_resource
+
+> crate::models::GroupReportsFetchResourceresponse group_reports_fetch_resource(id)
+Group Reports_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | N Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` | `user` | `naughty` | `naughtyType` | `Post`, `Comment`, `Review`, `Reaction` `reason` | `nsfw`, `spoiler` `status` | `current`, `onHold` | Values of the `status` attribute
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupReportsFetchResourceresponse**](GroupReports_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_reports_update_resource
+
+> group_reports_update_resource(id, content_type)
+Group Reports_Update Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | N Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` | `user` | `naughty` | `naughtyType` | `Post`, `Comment`, `Review`, `Reaction` `reason` | `nsfw`, `spoiler` `status` | `current`, `onHold` | Values of the `status` attribute
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_ticket_messages_create_resource
+
+> group_ticket_messages_create_resource(id, content_type)
+Group Ticket Messages_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `ticket` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_ticket_messages_delete_resource
+
+> group_ticket_messages_delete_resource(id, content_type)
+Group Ticket Messages_Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `ticket` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_ticket_messages_fetch_collection
+
+> crate::models::GroupTicketMessagesFetchCollectionresponse group_ticket_messages_fetch_collection(id)
+Group Ticket Messages_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `ticket` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupTicketMessagesFetchCollectionresponse**](GroupTicketMessages_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_ticket_messages_fetch_resource
+
+> crate::models::GroupTicketMessagesFetchResourceresponse group_ticket_messages_fetch_resource(id)
+Group Ticket Messages_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `ticket` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupTicketMessagesFetchResourceresponse**](GroupTicketMessages_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_ticket_messages_update_resource
+
+> group_ticket_messages_update_resource(id, content_type)
+Group Ticket Messages_Update Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `ticket` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_tickets_create_resource
+
+> group_tickets_create_resource(id, content_type)
+Group Tickets_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | N Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` | `user` | `assignee` | `status` | `current`, `onHold` | Values of the `status` attribute `queryGroup` | `query` | | Search resource
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_tickets_fetch_collection
+
+> crate::models::GroupTicketsFetchCollectionresponse group_tickets_fetch_collection(id)
+Group Tickets_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | N Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` | `user` | `assignee` | `status` | `current`, `onHold` | Values of the `status` attribute `queryGroup` | `query` | | Search resource
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupTicketsFetchCollectionresponse**](GroupTickets_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_tickets_fetch_resource
+
+> crate::models::GroupTicketsFetchResourceresponse group_tickets_fetch_resource(id)
+Group Tickets_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | N Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` | `user` | `assignee` | `status` | `current`, `onHold` | Values of the `status` attribute `queryGroup` | `query` | | Search resource
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::GroupTicketsFetchResourceresponse**](GroupTickets_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## group_tickets_update_resource
+
+> group_tickets_update_resource(id, content_type)
+Group Tickets_Update Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | N Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `group` | `user` | `assignee` | `status` | `current`, `onHold` | Values of the `status` attribute `queryGroup` | `query` | | Search resource
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## leader_chat_messages_create_resource
+
+> leader_chat_messages_create_resource(id, content_type)
+Leader Chat Messages_Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `groupId` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## leader_chat_messages_delete_resource
+
+> leader_chat_messages_delete_resource(id, content_type)
+Leader Chat Messages_Delete Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `groupId` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## leader_chat_messages_fetch_collection
+
+> crate::models::LeaderChatMessagesFetchCollectionresponse leader_chat_messages_fetch_collection(id)
+Leader Chat Messages_Fetch Collection
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `groupId` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::LeaderChatMessagesFetchCollectionresponse**](LeaderChatMessages_FetchCollectionresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## leader_chat_messages_fetch_resource
+
+> crate::models::LeaderChatMessagesFetchResourceresponse leader_chat_messages_fetch_resource(id)
+Leader Chat Messages_Fetch Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `groupId` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+
+### Return type
+
+[**crate::models::LeaderChatMessagesFetchResourceresponse**](LeaderChatMessages_FetchResourceresponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/vnd.api+json, application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## leader_chat_messages_update_resource
+
+> leader_chat_messages_update_resource(id, content_type)
+Leader Chat Messages_Update Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | N   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | N   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `groupId` |
+
+### Parameters
+
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
+
+### Return type
+
+ (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+- **Content-Type**: Not defined
+- **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+
+## patch_update_resource12345678
+
+> patch_update_resource12345678(id, content_type)
 Update Resource
 
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `featured` | `true`, `false` `category` | `privacy` | `open`, `closed`, `restricted` `query` | | Search resource
+
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -1356,22 +1769,25 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 
-## update_resource_0
+## post_create_resource12345678
 
-> update_resource_0(id)
-Update Resource
+> post_create_resource12345678(id, content_type)
+Create Resource
+
+**Authorisation**  Authenticated | Role      | GET | POST | PATCH | DELETE ------------: | --------: | :-: | :--: | :---: | :----: No            | None      | Y   | N    | N     | N Yes           | None      | Y   | Y    | Y     | Y Yes           | Admin     | Y   | N    | N     | N  **Filters**  Filters can be used in `camelCase` or `snake_case` format  Filter | Example | Notes -----: | :------ | :---- `featured` | `true`, `false` `category` | `privacy` | `open`, `closed`, `restricted` `query` | | Search resource
 
 ### Parameters
 
 
 Name | Type | Description  | Required | Notes
 ------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
+**id** | **f64** |  | [required] |
+**content_type** | **String** |  | [required] |
 
 ### Return type
 
@@ -1384,203 +1800,7 @@ No authorization required
 ### HTTP request headers
 
 - **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## update_resource_1
-
-> update_resource_1(id)
-Update Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## update_resource_2
-
-> update_resource_2(id)
-Update Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## update_resource_3
-
-> update_resource_3(id)
-Update Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## update_resource_4
-
-> update_resource_4(id)
-Update Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## update_resource_5
-
-> update_resource_5(id)
-Update Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## update_resource_6
-
-> update_resource_6(id)
-Update Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-
-## update_resource_7
-
-> update_resource_7(id)
-Update Resource
-
-### Parameters
-
-
-Name | Type | Description  | Required | Notes
-------------- | ------------- | ------------- | ------------- | -------------
-**id** | **f32** |  | [required] |
-
-### Return type
-
- (empty response body)
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/vnd.api+json
+- **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
